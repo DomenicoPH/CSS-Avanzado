@@ -4,7 +4,6 @@ body{
 
 .title{
     display: flex;
-    width: 100vw;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
     color: gold;
