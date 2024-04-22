@@ -1,0 +1,50 @@
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+.parrafo{
+    width: 400px;
+    font-size: 40px;
+    border: 3px solid red;
+}
+
+#text-sample-1{
+    writing-mode: horizontal-tb;
+}
+
+#text-sample-2{
+    max-height: 200px;
+    writing-mode: vertical-rl;
+}
+
+#text-sample-3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#text-sample-4{
+    width: 200px;
+    border: 3px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px;
+    font-size: 24px;
+    background-color: bisque;
+    resize: horizontal;
+}

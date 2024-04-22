@@ -1,0 +1,74 @@
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(orange,red);
+    border: 7px solid darkred;
+    margin: 5px;
+}
+
+#div-1{
+    transform: translateX(125px) translateY(75px);
+}
+
+#div-2{
+    transform: translateX(-125px) translateY(-75px);
+}
+
+#div-3{
+    transform: rotateX(180deg);
+}
+
+#div-4{
+    transform: rotateY(180deg);
+}
+
+#div-5{
+    margin: 50px;
+    transform: rotate(45deg);
+}
+
+#div-6{
+    transform: skewX(25deg);
+}
+
+#div-7{
+    transform: skewX(-25deg);
+}
+
+#div-8{
+    transform: skewY(5deg);
+}
+
+#div-9{
+    transform: scaleX(2);
+}
+
+#div-10{
+    transform: scaleY(2);
+}
+
+#div-11{
+    margin: 100px;
+    transform: scale(3);
+}
