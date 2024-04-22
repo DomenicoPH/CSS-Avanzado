@@ -1,0 +1,68 @@
+.uno{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+    border-radius: 25px;
+    background-color: greenyellow;    
+}
+
+#b2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+    border-radius: 25px;
+    border: 2px solid blueviolet;    
+}
+
+#b3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+    border-radius: 25px;
+    background-image: url('./media/fondo.jpg');
+    background-position: left top;
+    background-repeat: repeat;    
+}
+
+#b4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+    border-radius: 15px 50px 30px 5px;
+    background-color: red;    
+}
+
+#b5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    
+    border-radius: 45%;
+    background-color: gold;
+}

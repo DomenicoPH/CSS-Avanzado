@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#b1{
+    border: 20px solid greenyellow;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    padding: 20px;
+    margin: 25px 5px;
+    background-color: darkred;
+    color: white;
+    border-image-source: url('./media/marco.png');
+    border-image-slice: 25%;
+    border-image-repeat: repeat round;
+    border-image-width: 30px;
+    border-image-outset: 10px;
+}
+
+#b2{
+    border: 20px solid greenyellow;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    padding: 20px;
+    margin: 25px 5px;
+    background-color: darkblue;
+    color: white;
+    border-image: url('./media/marco.png') 120 stretch;
+}

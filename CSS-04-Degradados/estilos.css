@@ -1,0 +1,287 @@
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.deg-sample{
+    transition: all .5s ease;
+}
+.deg-sample:hover{
+    color: rgba(0,0,0,0);
+}
+
+/* Linear Gradinets */
+
+#degradado-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: linear-gradient(orange, red);
+}
+
+#degradado-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: linear-gradient(to right, orange, red);
+}
+
+#degradado-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: linear-gradient(45deg, gold, orange, red, purple, blue);
+}
+
+#degradado-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: linear-gradient(45deg, gold, orange, red 95%, purple, blue);
+}
+
+#degradado-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: linear-gradient(45deg, gold, orange, red 5%, purple, blue);
+}
+
+#degradado-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(blue, violet, gold, orange, red, purple, blue 10%);
+}
+
+#degradado-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(blue, violet, gold, orange, red, purple, blue 25%);
+}
+
+#degradado-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(blue, violet, gold, orange, red, purple, blue 50%);
+}
+
+#degradado-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(blue, violet, gold, orange, red, purple, blue 100%);
+}
+
+#degradado-16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(
+        45deg, yellow, yellow 10px, red 10px, red 20px
+    );
+}
+
+#degradado-17{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(
+        90deg, yellow, yellow 10px, red 10px, red 20px
+    );
+}
+
+#degradado-18{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-linear-gradient(
+        0deg, yellow, yellow 20px, red 20px, red 40px, black 40px, black 60px
+    );
+}
+
+/* Radial Gradients */
+
+#degradado-10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-radial-gradient(violet, gold, orange, red, purple, blue);
+}
+
+#degradado-11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-radial-gradient(blue, cyan);
+}
+
+#degradado-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-radial-gradient(blue 90%, cyan);
+}
+
+#degradado-13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-radial-gradient(blue 10%, cyan);
+}
+
+#degradado-14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: radial-gradient(circle at top right, cyan, blue);
+}
+
+#degradado-15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+
+    background: repeating-radial-gradient(circle, blue, cyan 20%);
+}
+
