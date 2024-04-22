@@ -27,6 +27,13 @@
     margin: 5px;
 }
 
+.final-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 #div-1{
     transform: translateX(125px) translateY(75px);
 }
@@ -55,7 +62,7 @@
 #div-7{
     transform: skewX(-25deg);
 }
-
+ 
 #div-8{
     transform: skewY(5deg);
 }
@@ -71,4 +78,21 @@
 #div-11{
     margin: 100px;
     transform: scale(3);
+}
+
+#div-12{
+    background: linear-gradient(180deg, red,orange);
+    width: 200px;
+    height: 200px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+}
+@keyframes skew {
+    0%{
+        transform: skew(20deg, 20deg)
+    }
+    100%{
+        transform: skew(-20deg, -20deg)
+    }
+
 }
