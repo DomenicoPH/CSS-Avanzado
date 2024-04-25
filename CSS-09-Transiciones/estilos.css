@@ -4,6 +4,9 @@
     width: 100%;
     text-align: center;
 }
+.subtitle{
+    font-size: 1.5rem;
+}
 
 .container{
     display: flex;
@@ -113,8 +116,79 @@
 }
 
 #sample_7{
+    margin: 5px;
     background: orange;
-    width: 50px;
+    width: 150px;
     height: 150px;
-    animation: ;
+    animation: mover-derecha-alt-1 2s ease-in infinite;
+    animation-delay: 1000ms;
+}
+@keyframes mover-derecha-alt-1{
+    0%{ transform: translateX(0px);}
+    100%{ transform: translateX(300px);}
+}
+
+#sample_8{
+    margin: 5px;
+    background: orange;
+    width: 150px;
+    height: 150px;
+    animation: mover-derecha-alt-2 2s ease-in-out infinite;
+    animation-delay: 1000ms;
+}
+@keyframes mover-derecha-alt-2{
+    0%{transform: translateX(0px);}
+    100%{
+        transform: translateX(300px);
+        border-radius: 50%;
+        background: linear-gradient(120deg, orange 0%, red 100% );
+    }
+}
+
+#sample_9{
+    margin: 5px;
+    background: orange;
+    width: 150px;
+    height: 150px;
+    animation: mover-derecha-alt-3 5s ease-in-out infinite;
+    animation-delay: 1000ms;
+}
+@keyframes mover-derecha-alt-3{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(200px);
+        border-radius: 10px;
+        background: linear-gradient(120deg, red 0%, darkred 100% );
+    }
+}
+
+#sample_10{
+    margin: 5px;
+    background: pink;
+    width: 150px;
+    height: 150px;
+    animation: mover-derecha-alt-4 5s ease-in-out infinite;
+    animation-delay: 1000ms;
+}
+@keyframes mover-derecha-alt-4{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(200px);
+        border-radius: 10px;
+        background: linear-gradient(120deg, yellow 0%, goldenrod 100% );
+    }
+    50%{
+        transform: translateY(200px) translateX(200px);
+        border-radius: 50px;
+        background: linear-gradient(120deg, orange 0%, orangered 100% );
+    }
+    75%{
+        transform: translateX(0px) translateY(200px);
+        border-radius: 200px;
+        background: linear-gradient(120deg, yellowgreen 0%, green 100% );
+    }
 }
