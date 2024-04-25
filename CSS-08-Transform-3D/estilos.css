@@ -57,26 +57,62 @@ body{
 }
 
 .cubo div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: translateZ(75px);
     background-color: darkblue;
+    color: white;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cubo div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotateX(180deg) translateZ(75px);
     background-color: darkcyan;
+    color: white;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cubo div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotateY(-90deg) translateZ(75px);
     background-color: darkred;
+    color: white;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cubo div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotateY(90deg) translateZ(75px);
     background-color: darkorange;
+    color: white;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cubo div:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotateX(90deg) translateZ(75px);
     background-color: darkmagenta;
+    color: white;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cubo div:nth-child(6){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotateX(-90deg) translateZ(75px);
     background-color: darkturquoise;
+    color: white;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
