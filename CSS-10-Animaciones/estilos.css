@@ -1,0 +1,59 @@
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+#animacion_1{
+    height: 250px;
+    width: 250px;
+    margin: 4px auto;
+    background-color: red;
+    animation-name: anima-1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+}
+@keyframes anima-1{
+    0%{
+        transform: scale(.3);
+        border-radius: 50px;
+    }
+}
+
+#animacion_2{
+    height: 250px;
+    width: 250px;
+    margin: 4px auto;
+    background-color: red;
+    animation-name: anima-2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes anima-2{
+    0%{
+        transform: scale(.3);
+        border-radius: 100%;
+    }
+    50%{
+        background-color: orange;
+    }
+}
