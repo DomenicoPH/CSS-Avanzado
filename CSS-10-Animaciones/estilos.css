@@ -4,10 +4,6 @@
     width: 100%;
     text-align: center;
 }
-.subtitle{
-    font-size: 1.5rem;
-}
-
 .container{
     display: flex;
     flex-direction: column;
@@ -17,6 +13,13 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     text-align: center;
+}
+
+.anima_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
 }
 
 #animacion_1{
@@ -55,5 +58,36 @@
     }
     50%{
         background-color: orange;
+    }
+}
+
+#animacion_3{
+    height: 250px;
+    width: 250px;
+    margin: 4px auto;
+    background-color: red;
+    animation-name: anima-3;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+#animacion_3:hover{
+    animation-play-state: paused;
+}
+@keyframes anima-3{
+    0%{
+        transform: scale(.3);
+        border-radius: 100%;
+        background-color: yellow;
+    }
+    50%{
+        background-color: orange;
+    }
+    100%{
+        transform: scale(1);
     }
 }
