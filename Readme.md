@@ -11,3 +11,22 @@
 ## 04. Degradados  
 
 ## 05. Sombras  
+
+## 06. Texto  
+
+## 07. Transformaciones 2D  
+
+## 08. Transformaciones 3D  
+
+## 09. Transiciones  
+
+## 10. Animaciones  
+
+## 11. Referencias de información  
+
+## 12. Imágenes  
+
+## 13. Ajustes de objetos  
+
+## 14. Paginación  
+

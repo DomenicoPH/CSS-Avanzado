@@ -18,3 +18,42 @@
     font-size: 25px;
     text-align: center;
 }
+
+.texto_uno{
+    cursor: pointer;
+    background-color: crimson;
+    color: bisque;
+    font-size: 38px;
+    padding: 15px 32px;
+    margin: 100px;
+    display: inline-block;
+    position: relative;
+}
+.texto_uno:hover .texto_dos{
+    visibility: visible;
+}
+.texto_uno .texto_dos{
+    visibility: hidden;
+    width: 250px;
+    background-color: darkslateblue;
+    color: white;
+    font-size: .8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    top: 74px;
+    left: 4%;
+    z-index: 1;
+}
+.texto_uno .texto_dos::after{
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:transparent transparent darkslateblue;
+}
