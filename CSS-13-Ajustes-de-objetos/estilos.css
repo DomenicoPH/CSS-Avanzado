@@ -5,16 +5,35 @@
     text-align: center;
 }
 .subtitle{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 80%;
+    border: 3px solid red;
+}
+#imagen-1{
+    width: 500px;
+    height: 340px;
+}
 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    text-align: center;
+#cont-1 #imagen-1{
+    width: 100%;
+    object-fit: contain;
+}
+
+#cont-2 #imagen-1{
+    width: 100%;
+    object-fit: cover;
+}
+
+#cont-3 #imagen-1{
+    width: 100%;
+    object-fit:fill;
+}
+
+#cont-4 #imagen-1{
+    width: 100%;
+    object-fit: none;
 }
