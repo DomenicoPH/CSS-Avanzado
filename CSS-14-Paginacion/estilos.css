@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 .title{
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
@@ -10,11 +16,29 @@
 
 .container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+.paginacion{
+    background-color: gold;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.paginacion a{
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
+    color: brown;
+    font-size: 19px;
+    font-weight: 700;
+    transition: .2s linear;
+}
+.paginacion a:hover{
+    background-color: coral;
+    color: white;
 }
