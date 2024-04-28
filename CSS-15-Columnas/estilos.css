@@ -3,7 +3,31 @@
     margin: auto;
     width: 100%;
     text-align: center;
+    column-span: all;
 }
 .subtitle{
     font-size: 1.5rem;
+}
+
+#columnas_1{
+    text-align: justify;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: red;
+}
+
+#columnas_2{
+    text-align: justify;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid darkmagenta;
+}
+
+#columnas_3{
+    text-align: justify;
+    column-count: 5;
+    column-gap: 20px;
+    column-rule: 1px solid darkcyan;
 }
