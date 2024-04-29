@@ -7,3 +7,25 @@
 .subtitle{
     font-size: 1.5rem;
 }
+.link{
+    text-decoration: none;
+    border: 1px solid darkslateblue;
+    padding: 10px;
+    margin: 2px;
+    min-width: 400px;
+    text-align: center;
+    transition: all .5s ease;
+}
+    .link:hover{
+        border-radius: 4px;
+        background: darkslateblue;
+        color: white;
+    }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}

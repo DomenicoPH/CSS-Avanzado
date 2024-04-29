@@ -34,6 +34,20 @@ speech - lectores de pantalla.
 
 ## 18. Espaciado  
 ## 19. Unidades de medida  
+
+### Unidades relativas:
+em --> 1em = Tamaño de fuente establecida en el navegador.
+ex --> 1ex = Mitad del tamaño de fuente del navegador.
+ch --> 1ch = Tamaño de ancho del cero.
+rem -> 1rem = Tamaño fuente raíz.
+% ---> Relativa a herencia (contenedor padre).
+
+### Unidades flexibles:
+vw ---> viewport width ---> 1vw = 1% ancho del navegador
+vh ---> viewport height --> 1vh = 1% alto del navegador
+vmin -> viewport minimum -> 1vmin = 1% de alto o ancho (el mínimo)
+vmax -> viewport maximum -> 1vmax = 1% de alto o ancho (el máximo)
+
 ## 20. Before & After  
 ## 21. Selectores  
 ## 22. Position: absolute  

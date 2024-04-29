@@ -1,0 +1,92 @@
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.padre{
+    font-size: 20px; /* Valor de referencia */
+}
+
+.hijo-1{
+    font-size: 1em; /* equivalente a 20px, el 100% del valor de referencia*/
+}
+.hijo-2{
+    font-size: 1.5em; /* equivalente al 150% del valor de referencia*/
+}
+.hijo-3{
+    font-size: 2em; /* equivalente al doble (200%) del valor de referencia */
+}
+
+.hijo-4{
+    font-size: 20px;    /* Valor de referencia */
+}
+.hijo-5{
+    font-size: 30px;    /* Valor de referencia + 50% */
+}
+.hijo-6{
+    font-size: 40px;    /* Valor de referencia + 100% */
+}
+
+.hijo-7{
+    font-size: 2em;    /* Doble del Valor de referencia (20px * 2 = 40px) */
+}
+.hijo-8{
+    font-size: 2em;    /* Doble del Valor de referencia (40px * 2 = 80px) */
+}
+.hijo-9{
+    font-size: 2em;    /* Doble del Valor de referencia (80px * 2 = 160px) */
+}
+
+.h7-test{
+    color: red;
+    font-size: 48px;
+}
+.h8-test{
+    color: red;
+    font-size: 96px;
+}
+.h9-test{
+    color: red;
+    font-size: 192px;
+}
+
+
+.span{
+    text-align: center;
+    font-size: .5rem;
+    background: greenyellow;
+    padding: 4px;
+    border-radius: 4px;
+    color: rgba(137, 43, 226, 0.5);
+}
+.span:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.hijo-10{
+    margin: 10px;
+    font-size: 1em;    /* Valor de referencia heredado del padre (20px) */
+}
+.hijo-11{
+    margin: 10px;
+    font-size: 20px;    /* 20px */
+}
+.hijo-12{
+    margin: 10px;
+    font-size: 1rem;    /* Valor de referencia heredado del navegador (16px) */
+}
+.hijo-13{
+    margin: 10px;
+    font-size: 16px;    /* 16px */
+}
+.hijo-14{
+    margin: 10px;
+    font-size: 2rem;    /* Doble del valor de referencia REM (16px x 2 = 32px)*/
+}
+.hijo-15{
+    margin: 10px;
+    font-size: 32px;    /* 32px */
+}
