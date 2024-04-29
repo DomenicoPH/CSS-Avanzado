@@ -7,3 +7,139 @@
 .subtitle{
     font-size: 1.5rem;
 }
+.link{
+    text-decoration: none;
+    border: 1px solid darkslateblue;
+    padding: 10px;
+    margin: 2px;
+    min-width: 400px;
+    text-align: center;
+    transition: all .5s ease;
+}
+    .link:hover{
+        border-radius: 4px;
+        background: darkslateblue;
+        color: white;
+    }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+/* Ex 1 */
+.container-1{
+    column-rule: 1px solid grey;
+    column-count: 3;
+    column-gap: 20px;
+    background-color: darkcyan;
+    padding: 10px;
+}
+.texto{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Ex 2 */
+.container-2{
+    width: 960px;
+    margin: 0 auto;
+}
+#col-izq{
+    width: 700px;
+    float: left;
+    background: greenyellow;
+
+    min-height: 500px;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+#col-der{
+    width: 260px;
+    float: right;
+    background-color: blueviolet;
+
+    min-height: 500px;
+    font-size: 1rem;
+    letter-spacing: .5rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px){
+    /*ex. 1*/
+    .container-1{
+        background-color: darkmagenta;
+    }
+    .texto{
+        color: azure;
+    }
+}
+@media screen and (max-width: 1024px){
+    /*ex. 1*/
+    .container-1{
+        background-color: greenyellow;
+        column-count: 2;
+    }
+    .texto{
+        color: blueviolet;
+    }
+}
+@media screen and (max-width: 768px){
+    /*ex. 1*/
+    .container-1{
+        background-color: darkblue;
+        column-count: 2;
+    }
+    .texto{
+        color: goldenrod;
+    }
+}
+@media screen and (max-width: 480px){
+    /*ex. 1*/
+    .container-1{
+        background-color: darkseagreen;
+        column-count: 1;
+    }
+    .texto{
+        color: darkred;
+    }
+}
+
+@media screen and (max-width: 959px){
+    /*ex. 2*/
+    #image-banner{
+        width: 100%;
+    }
+    .container-2{
+        width: 100%;
+    }
+    #col-izq{
+        width: 70%;
+    }
+    #col-der{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 740px){
+    /*ex. 2*/
+    .container-2{
+        width: 100%;
+    }
+    #col-izq{
+        width: 100%;
+    }
+    #col-der{
+        width: 100%;
+    }
+}

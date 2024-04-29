@@ -19,6 +19,19 @@
 ## 15. Columnas  
 ## 16. Variables  
 ## 17. Media Queries  
+
+### Breakpoints:  
+320px x 480px - - - dispositivos móviles.  
+481px x 768px - - - tablets, ipad.  
+769px x 1024px - - - pantallas pequeñas.  
+1025px x 1200px - - - escritorios, pantallas grandes.  
+1201px ++ - - - pantallas extragrandes, TV.  
+### Tipos:
+all - todos los tipos de medio.  
+print - impresoras.  
+screen - pantallas.  
+speech - lectores de pantalla.  
+
 ## 18. Espaciado  
 ## 19. Unidades de medida  
 ## 20. Before & After  
