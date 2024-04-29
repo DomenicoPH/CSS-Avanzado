@@ -1,3 +1,9 @@
+/* Variables globales */
+:root{
+    --low-black: rgb(20, 21, 22); /* Variable global */
+    --titulo-color: yellow; /* Variable global */
+}
+
 .title{
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
@@ -7,3 +13,33 @@
 .subtitle{
     font-size: 1.5rem;
 }
+
+#container-A{
+    text-align: center;
+    background: red;
+}
+#heading_1{
+    color: var(--titulo-color);
+}
+#heading_2{
+    color: var(--titulo-color);
+}
+
+#container-B{
+    --boton-color: red; /* Variable local: afecta a este elemento y a todos sus hijos */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    font-size: 30px;
+}
+#heading_3{
+    --borde-color: rgb(33, 33, 38); /* Variable local: afecta a este elemento y a todos sus hijos */
+    display: inline-block;
+    border: 3px solid var(--borde-color);
+    padding: 12px;
+    border-radius: 10px;
+}
+    #heading_3:hover{
+        background: var(--low-black);
+        color: var(--boton-color);
+        cursor: pointer;
+    }
