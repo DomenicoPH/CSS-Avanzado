@@ -72,3 +72,13 @@ li{
     height: 22px;
     background: cyan;
 }
+
+main{
+    background: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-width: 100%;
+}
